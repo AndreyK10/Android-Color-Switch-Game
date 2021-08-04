@@ -26,6 +26,4 @@ public class MainMenuController : MonoBehaviour
         PlayerPrefs.DeleteAll();
         highscoreText.text = "Delete Highscore\n Current Highscore: 0";
     }
-
-
 }
