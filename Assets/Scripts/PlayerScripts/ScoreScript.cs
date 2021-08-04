@@ -11,6 +11,7 @@ public class ScoreScript : MonoBehaviour
     private void Start()
     {
         score = 0;
+        Score = score;
     }
     private void Update()
     {

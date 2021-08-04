@@ -23,7 +23,7 @@ public class MainMenuController : MonoBehaviour
 
     public void DeleteHighscore()
     {
-        PlayerPrefs.DeleteAll();
-        highscoreText.text = "Delete Highscore\n Current Highscore: 0";
+        PlayerPrefs.DeleteKey(GameplayController.PREFS_HIGHSCORE);
+        highscoreText.text = "Delete Highscore\n Current Highscore: " + PlayerPrefs.GetInt(GameplayController.PREFS_HIGHSCORE).ToString();
     }
 }
