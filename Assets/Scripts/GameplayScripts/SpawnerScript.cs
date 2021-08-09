@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class SpawnerScript : MonoBehaviour
 {
-    public GameObject colorSwitch;
-    public GameObject[] obstacles;
+    [SerializeField] private GameObject colorSwitch;
+    [SerializeField] private GameObject[] obstacles;
     public static bool canSpawn;
-    public Transform playerPosition;
+    [SerializeField] private Transform playerPosition;
     [SerializeField] private float obstacleSpawnDistance;
     [SerializeField] private float colorSwitchSpawnDistance;
 

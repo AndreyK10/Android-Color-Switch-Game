@@ -4,7 +4,7 @@ using TMPro;
 
 public class MainMenuController : MonoBehaviour
 {
-    public TextMeshProUGUI highscoreText;
+    [SerializeField] private TextMeshProUGUI highscoreText;
 
     private void Start()
     {

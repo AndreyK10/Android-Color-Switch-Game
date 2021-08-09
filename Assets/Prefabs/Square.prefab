@@ -380,7 +380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 0
   minRotationSpeed: 100
-  maxRotationSpeed: 200
+  maxRotationSpeed: 180
   rotationDirection: 0
 --- !u!61 &7478798889352969598
 BoxCollider2D:

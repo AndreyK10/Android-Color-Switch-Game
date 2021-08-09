@@ -417,7 +417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 100
   minRotationSpeed: 100
-  maxRotationSpeed: 200
+  maxRotationSpeed: 180
   rotationDirection: 0
 --- !u!58 &445753232
 CircleCollider2D:

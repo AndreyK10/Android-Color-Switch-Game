@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Button))]
 public class AudioButton : MonoBehaviour
 {
-    public Button button;
-    public Sprite on, off;
+    [SerializeField] private Button button;
+    [SerializeField] private Sprite on, off;
     [SerializeField] private bool isMusicButton;
 
     private void Awake()

@@ -6,7 +6,7 @@ public class ScoreScript : MonoBehaviour
     [SerializeField] private int score;
     public static int Score;
 
-    public TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI scoreText;
 
     private void Start()
     {
